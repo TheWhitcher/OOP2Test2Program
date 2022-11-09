@@ -15,6 +15,8 @@ namespace OOP2Test2Program
         public Form1()
         {
             InitializeComponent();
+            Length len = new Length();
+            MessageBox.Show(len.ToString());
         }
     }
 }
