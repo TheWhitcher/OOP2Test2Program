@@ -20,11 +20,10 @@ namespace OOP2Test2Program
         /// Field saving the unit. Only use "m" and "ft" as values.
         /// </summary>
         public string unit;
-
         /// <inheritdoc/>
         public override string ToString()
         {
-            return this.value.ToString();
+            return value.ToString();
         }
     }
 }
